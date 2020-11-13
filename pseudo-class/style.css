@@ -1,0 +1,66 @@
+/* pseudo-class yang berhubungan dengan link */
+/* :link : style default pada sebuah link (a yang memiliki href) */
+/* :hover : style ketika kursor mouse berada diatas sebuah link / element */
+/* :active : style ketika sebuah link di klik (keadaan aktif) */
+/* :visited : style ketika sebuah link sudah pernah dikunjungi sebelumnya (menggunakan browser yang sama) */
+
+/* pseudo-class yang berhubungan dengan posisi elemen */
+/* :first-child : memilih element pertama dari sebuah parent (element pembungkusnya) */
+/* :last-child : memilih element terakhir dari sebuah parent (element pembungkusnya) */
+/* :nth-child(n) : memilih ke n dari sebuah parent (element pembungkusnya) 
+n bisa berarti urutan (1), (2) ... atau pola (2n), (3n + 2), (4n + 1) atau ganjil (odd) & genap (even) */
+
+/* pseudo-class yang berhubungan dengan posisi elemen (2) */
+/* :first-of-type : memilih elemen pertama dari sebuah jenis / tipe tag */
+/* :last-of-type : memilih elemen terakhir dari sebuah jenis / tipe tag */
+
+/* .hello:link { */
+.hello {
+  color: orange;
+}
+
+.hello:hover {
+  color: green;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.hello:active {
+  font-style: italic;
+}
+
+.hello:visited {
+  color: red;
+}
+
+/* li:first-child a {
+  color: green;
+}
+
+li:last-child a {
+  color: green;
+}
+
+li:nth-child(3) a {
+  color: green;
+} */
+
+/* li:nth-child(3n+1) a {
+  color: green;
+} */
+
+li:nth-child(even) a {
+  color: green;
+}
+
+li:nth-child(even) a:hover {
+  color: red;
+}
+
+p:first-of-type {
+  color: red;
+}
+
+p:last-of-type {
+  color: green;
+}
