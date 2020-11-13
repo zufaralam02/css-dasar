@@ -1,0 +1,53 @@
+/* color */
+/* nama warna: red, lightseagreen, royalblue */
+/* hexadecimal: 6 digit, dari 0-9, dari a-f */
+/* rbg: rgb(255, 0, 0), rgb(32, 178, 170), rgb(65, 105, 255) */
+
+/* text-align */
+/* left */
+/* right */
+/* center */
+/* justify */
+
+/* text-indent: jarak awal paragpraph */
+/* px */
+/* % */
+
+/* text-decoration */
+/* none */
+/* underline */
+/* overline */
+/* line-through */
+
+/* text-transform */
+/* none */
+/* lowercase */
+/* uppercase */
+/* capitalize */
+
+/* letter-spacing: mengatur jarak antar huruf */
+/* normal */
+/* px */
+
+/* word-spacing: mengatur jaraak antar kata */
+/* normal */
+/* px */
+
+h1 {
+  font-size: 150px;
+  /* color: red; */
+  /* color: #871818; */
+  color: rgb(161, 0, 0);
+  text-transform: lowercase;
+}
+
+p {
+  /* text-align: center; */
+  text-indent: 100px;
+  /* letter-spacing: 5px; */
+  word-spacing: 5px;
+}
+
+a {
+  text-decoration: none;
+}
