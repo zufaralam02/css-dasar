@@ -1,0 +1,22 @@
+/* properti yang diwariskan */
+/* 
+color
+font
+letter-spacing
+line-height
+line-style
+text-align
+text-indent
+text-transform
+visibility
+white-space
+*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkgrey;
+}
+
+a {
+  color: inherit;
+}
