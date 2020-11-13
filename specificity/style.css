@@ -1,0 +1,49 @@
+/* urutan
+1. inline
+2. id
+3. class
+4. element / tag
+*/
+
+/* di replace */
+/* p {
+  color: red;
+}
+
+p {
+  color: green;
+} */
+
+/* #p1 {
+  color: red;
+}
+
+p {
+  color: green;
+} */
+
+/* #p1 : 0 1 0 0 */
+/* p   : 0 0 0 1*/
+/* menang #p1 */
+
+ul#sarapan li {
+  color: green;
+}
+
+/* .favorite {
+  color: red;
+} */
+
+/* ul#sarapan li : 0 1 0 2 */
+/* .favorite     : 0 0 1 0 */
+/* menang ul#sarapan li */
+
+/* solusi
+- buat element yang diinginkan agar menjadi lebih spesifik
+- tambahkan beban pada element tersebut agar semakin berat
+*/
+
+ul#sarapan li.favorite {
+  color: red;
+}
+/* 0 1 1 2 */
