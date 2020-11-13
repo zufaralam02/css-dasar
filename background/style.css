@@ -1,0 +1,13 @@
+body {
+  /* color name, hexadecimal, rgb */
+  /* background-color: whitesmoke;
+
+  background-image: url(image/trees.png);
+  background-repeat: no-repeat;
+  background-position: bottom center; */
+
+  /* css backgroud shorthand */
+  /* background: color url() position repeat; */
+  /* urutan bisa ditukar */
+  background: whitesmoke url(image/trees.png) top right no-repeat;
+}
